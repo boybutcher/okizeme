@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { Navigation } from '../../components';
+import { Logo, Navigation } from '../../components';
 
 export default class extends Component {
   render () {
     return (
       <div>
-        <h1>OKIZEME!</h1>
+        <Logo />
         <Navigation />
         <div>About</div>
       </div>
