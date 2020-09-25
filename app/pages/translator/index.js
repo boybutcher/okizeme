@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navigation } from '../components';
+import { Navigation } from '../../components';
 
 export default class extends Component {
   render () {
@@ -7,10 +7,8 @@ export default class extends Component {
       <div>
         <h1>OKIZEME!</h1>
         <Navigation />
-        <div>Home</div>
+        <div>Translator</div>
       </div>
     )
   }
 };
-
-
