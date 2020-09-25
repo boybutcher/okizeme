@@ -1,9 +1,15 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Navigation } from '../components';
 
 export default class extends Component {
   render () {
     return (
-      <div>Okizeme rendering from Pages directory</div>
+      <div>
+        <h1>OKIZEME!</h1>
+        <Navigation />
+      </div>
     )
   }
 };
+
+
